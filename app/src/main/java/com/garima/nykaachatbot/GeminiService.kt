@@ -18,7 +18,7 @@ object GeminiService {
         .readTimeout(60, java.util.concurrent.TimeUnit.SECONDS)
         .build()
 
-    private const val GEMINI_API_KEY = "AIzaSyCfQF1oFmlqAsdN_R3rqY2n2dPYhpy0KZ8"
+    private const val GEMINI_API_KEY = BuildConfig.GEMINI_API_KEY
 
     // Correct v1 endpoint and a working model
     private const val GEMINI_MODEL = "gemini-2.5-flash"
